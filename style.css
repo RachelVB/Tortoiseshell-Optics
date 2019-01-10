@@ -64,3 +64,32 @@ ul li {
     margin: 0 auto;
     background-size: 150%;
 }
+
+.main-banner,
+.headline {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.section1 {
+	padding-right: 10rem;
+}
+
+.headline {
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 1.2;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	background-color: white;
+}
+
+/* Center Services Section */
+
+.services {
+	display: flex;
+}
