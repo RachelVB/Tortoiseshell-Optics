@@ -1,1 +1,29 @@
 /* Universial Styles */
+
+html {
+    font-family: Helvetica;
+    font-size: 16px;
+    
+}
+
+/* div {
+    border: 1px solid black;
+}  */
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.container,
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section1,
+.nav-bar {
+    color: white;
+    background-color: cadetblue;
+}
