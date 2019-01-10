@@ -3,7 +3,7 @@
 html {
     font-family: Helvetica;
     font-size: 16px;
-    
+    line-height: 1.4;
 }
 
 /* div {
@@ -15,15 +15,52 @@ html {
     margin: 0 auto;
 }
 
-.container,
 .section1 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-.section1,
-.nav-bar {
+header {
     color: white;
     background-color: cadetblue;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.image {
+    padding-left: 2rem;
+    padding-right: 1rem;
+    height: 1.5rem;
+}
+
+/* You need to select the main container, the spacific section and the child element in that section. Once we put the displa:flex, it displays it inline with the other elements.  */
+.container,.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li {
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* .container,
+.section1,
+.nav-bar {
+    z-index: 3;
+} */
+
+/* Main Banner */
+
+.main-banner {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 1300px;
+    margin: 0 auto;
+    background-size: 150%;
 }
