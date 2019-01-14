@@ -200,6 +200,12 @@ footer img {
 		 max-width: 100%;
 	 }
 
+	 header .flex {
+		 display: flex;
+		 justify-content: center;
+		 padding-left: 6rem;
+	 }
+
 	 .main-banner {
 		 margin-top: 5rem;
 		 margin-right: 3rem;
@@ -207,6 +213,23 @@ footer img {
 
 	 h1 {
 		 font-size: 1.33rem;
+	 }
+
+	 .service {
+		 max-width: 30px;
+		 padding-left: 1rem;
+	 }
+
+	 .container .info {
+		 margin: -1rem;
+		}
+
+	 .info p {
+		width: 15rem;	 
+	 }
+
+	 .info .title {
+		 margin-top: .5rem;
 	 }
 }
 
@@ -219,7 +242,16 @@ footer img {
 		height: 17rem;
 	}
 
+	.supporting,
+	.service {
+		display: flex;
+		flex-direction: column;
+	}
 
+	.container .info {
+		display: flex;
+		flex-direction: column;
+	}
 /* 
 	nav.container {
 		max-width: 100%;
